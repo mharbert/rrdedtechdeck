@@ -185,6 +185,58 @@
             background-repeat: no-repeat;
         }
 
+        /* Student Choice Card Styles */
+        .student-choice-card {
+            border: 3px solid #ffd700; /* Gold border */
+            border-radius: 12px;
+            background-color: #fffaf0; /* Light cream background */
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 16px;
+            text-align: center;
+        }
+        .card-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 16px;
+            color: #3c3c3c;
+        }
+        .award-icon {
+            font-size: 40px;
+            margin: 12px 0;
+            color: #ffc107;
+        }
+        .card-field {
+            margin-top: 16px;
+            text-align: left;
+        }
+        .field-label {
+            font-weight: 700;
+            font-size: 12px;
+            color: #5a67d8; /* Indigo */
+        }
+        .field-line {
+            width: 100%;
+            height: 1px;
+            background-color: #a0aec0;
+            margin-top: 2px;
+        }
+        .reason-box {
+            margin-top: 16px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .reason-lines {
+            flex-grow: 1;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            padding: 4px;
+            background-color: #ffffff;
+        }
+
+
         /* Card Type Colors */
         .type-creativity .card-header { background-color: #2f855a; }
         .type-collaboration .card-header { background-color: #2b6cb0; }
@@ -621,16 +673,62 @@
         </div>
     </div>
 
+    <!-- PAGE 5 (STUDENT CARDS) -->
+    <div class="printable-page">
+        <div class="card-grid">
+            <!-- Student Choice Card Template -->
+            <div class="student-choice-card">
+                <div class="card-title">STUDENT CHOICE</div>
+                <div class="award-icon">🏆</div>
+                <div class="card-field"><div class="field-label">AWARDED TO (TEACHER):</div><div class="field-line"></div></div>
+                <div class="card-field"><div class="field-label">TECH TOOL USED:</div><div class="field-line"></div></div>
+                <div class="reason-box"><div class="field-label">THIS LESSON WAS AWESOME BECAUSE:</div><div class="reason-lines mt-1"></div></div>
+                <div class="card-field"><div class="field-label">AWARDED BY (STUDENT):</div><div class="field-line"></div></div>
+                <div class="card-footer"><span>EdTech Deck</span><span>Special Edition</span></div>
+            </div>
+            <!-- Copy 2 -->
+            <div class="student-choice-card">
+                <div class="card-title">STUDENT CHOICE</div>
+                <div class="award-icon">🏆</div>
+                <div class="card-field"><div class="field-label">AWARDED TO (TEACHER):</div><div class="field-line"></div></div>
+                <div class="card-field"><div class="field-label">TECH TOOL USED:</div><div class="field-line"></div></div>
+                <div class="reason-box"><div class="field-label">THIS LESSON WAS AWESOME BECAUSE:</div><div class="reason-lines mt-1"></div></div>
+                <div class="card-field"><div class="field-label">AWARDED BY (STUDENT):</div><div class="field-line"></div></div>
+                <div class="card-footer"><span>EdTech Deck</span><span>Special Edition</span></div>
+            </div>
+            <!-- Copy 3 -->
+            <div class="student-choice-card">
+                <div class="card-title">STUDENT CHOICE</div>
+                <div class="award-icon">🏆</div>
+                <div class="card-field"><div class="field-label">AWARDED TO (TEACHER):</div><div class="field-line"></div></div>
+                <div class="card-field"><div class="field-label">TECH TOOL USED:</div><div class="field-line"></div></div>
+                <div class="reason-box"><div class="field-label">THIS LESSON WAS AWESOME BECAUSE:</div><div class="reason-lines mt-1"></div></div>
+                <div class="card-field"><div class="field-label">AWARDED BY (STUDENT):</div><div class="field-line"></div></div>
+                <div class="card-footer"><span>EdTech Deck</span><span>Special Edition</span></div>
+            </div>
+            <!-- Copy 4 -->
+            <div class="student-choice-card">
+                <div class="card-title">STUDENT CHOICE</div>
+                <div class="award-icon">🏆</div>
+                <div class="card-field"><div class="field-label">AWARDED TO (TEACHER):</div><div class="field-line"></div></div>
+                <div class="card-field"><div class="field-label">TECH TOOL USED:</div><div class="field-line"></div></div>
+                <div class="reason-box"><div class="field-label">THIS LESSON WAS AWESOME BECAUSE:</div><div class="reason-lines mt-1"></div></div>
+                <div class="card-field"><div class="field-label">AWARDED BY (STUDENT):</div><div class="field-line"></div></div>
+                <div class="card-footer"><span>EdTech Deck</span><span>Special Edition</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 5 BACK -->
+    <div class="printable-page">
+        <div class="card-grid">
+            <div class="card-back"></div>
+            <div class="card-back"></div>
+            <div class="card-back"></div>
+            <div class="card-back"></div>
+        </div>
+    </div>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
 
